@@ -1,60 +1,117 @@
-body{
-    background-image: linear-gradient(180deg,#ADEFD1FF,#00203FFF);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg, #1287A8, white);
+    height: auto;
     background-repeat: no-repeat;
 }
-.clg{
-    margin-top: 20px;
-    height: 720px;
-    width: 1520px;
-}
-.logo{
-    margin:0;
-    justify-content: center;
-    border: 6px solid green;
-    background-color: gray;
+
+#navbar {
+    position: sticky;
     display: flex;
-
-}
-.logo H1{
-    float: right;
-}
-.logo img{
-    margin-top: 2px;
-    width: 50px;
-    border: 6px solid white;
-    border-radius:10px 20px;
-
- filter:invert(100%);
 }
 
-
-.navbar{
-    margin-top: 0;
-    background-color: rgb(10, 8, 8);
-
+#logo img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 60px;
 }
-.navbar ul{
-    padding: 10px 10px;
-    text-align: center;
-    border:2px solid red;
- 
+
+/* list */
+#navbar ul {
+    margin-top: 40px;
+    display: flex;
 }
-.navbar ul li  {
-  
-  
+
+#navbar ul li {
+
     list-style: none;
 }
 
-.navbar ul li a {
-    margin:0 auto;
-    padding: 10px 10px;
-text-decoration: none;
-color: grey;
+#navbar ul li a {
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 50px;
 }
-.home{
-    display: flex;
+
+#navbar ul li a:hover {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: rgb(121, 41, 41);
 
 }
-.home ul li a{
-    flex-direction:row;
+
+.search {
+    margin: 54px 70px;
+}
+
+.search button {
+    background-color: cyan;
+    font-size: 13px;
+    padding: 0px 12px;
+}
+
+.search input {
+
+    font-size: 13px;
+    padding: 1px 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.primary {
+    position: relative;
+    top: 181px;
+    left: 59px;
+    color: #faf2f2;
+    font-size: 100px;
+}
+
+.secondary {
+    position: relative;
+    top: 226px;
+    font-size: 50px;
+    left: 59px;
+    color: rgb(250, 242, 242);
+}
+
+#background img {
+    width: 1518px;
+
+}
+
+#background {
+    position: absolute;
+    width: 1518px;
+    top: 0;
+}
+
+#about {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    top: 944px;
+    border: 2px solid blue;
+    font-size: 30px;
+    text-align: center;
+}
+#heading{
+    margin: 8px 10px 47px 0px;
+     font-size: 65px;
+}
+#about p{
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 35px;
+}
+#footer{
+    display: flex;
+    border:2px solid red;
+    height: 800px;
 }
