@@ -1,0 +1,15 @@
+.evnts{
+    border:2px red solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.evnts div{
+    margin: 5px 0px;
+    border:2px blue solid;
+    height:400px;
+    width:600px;
+
+}

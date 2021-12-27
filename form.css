@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.for div{
+   text-align: center;
+}
+.get{ 
+    text-align: center;
+    font-size: 30px;
+ }
+.form{
+    height: 600px;
+    width: 500px;
+   
+    /* border: 2px solid blue; */
+    left: 100px;
+}
+#name{
+    margin-top:20px;
+
+}
+label{
+    color: black;
+    font-size: 20px;
+}
+.name{
+    border-radius: 5px;
+    font-size: 20px;
+}
+.phone{
+    border-radius: 5px;
+    font-size: 20px;
+}
+.email input{
+    border-radius: 5px;
+    font-size: 20px;
+}
+.text textarea{
+    border-radius: 5px;
+    font-size: 20px;
+}
+.sbtn {
+    cursor: pointer;
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.sbtn:hover{
+    background-color: black;
+    color: white;
+}

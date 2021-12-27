@@ -1,28 +1,44 @@
+
 * {
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
 }
-
-body {
-    background-image: linear-gradient(180deg, #1287A8, white);
-    height: auto;
-    background-repeat: no-repeat;
+/* navigation section */
+.first{
+    position: fixed;
+}
+.second{
+    position:relative;
 }
 
+.header{
+  position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/clg.jpg);
+    background-size: cover;
+    position: relative;
+}
 #navbar {
-    position: sticky;
     display: flex;
+    height: 90px;
+    background-color: #1287A8;
 }
 
 #logo img {
-    width: 100px;
-    margin: 10px;
+    margin-left: 4px;
+    margin-top: 5px;
+    width: 80px;
     border-radius: 60px;
 }
 
-/* list */
 #navbar ul {
-    margin-top: 40px;
+    margin-top: 27px;
     display: flex;
 }
 
@@ -32,86 +48,185 @@ body {
 }
 
 #navbar ul li a {
-    display: block;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+
     color: white;
     text-decoration: none;
-    padding: 8px 50px;
+    padding: 8px 64px;
 }
 
 #navbar ul li a:hover {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    color: rgb(121, 41, 41);
-
+    color: grey;
 }
 
 .search {
-    margin: 54px 70px;
+    margin: 29px 59px;
 }
 
 .search button {
     background-color: cyan;
-    font-size: 13px;
+    font-size: 15px;
     padding: 0px 12px;
 }
 
 .search input {
 
-    font-size: 13px;
-    padding: 1px 5px;
+    font-size: 15px;
 }
 
 button:hover {
     cursor: pointer;
 }
 
-.primary {
-    position: relative;
-    top: 181px;
-    left: 59px;
+.text {
     color: #faf2f2;
     font-size: 100px;
+    padding-left: 2rem;
+    align-items: center;
 }
-
-.secondary {
-    position: relative;
-    top: 226px;
-    font-size: 50px;
-    left: 59px;
-    color: rgb(250, 242, 242);
+.text .primary{
+    font-family: poppins;
+  
 }
-
-#background img {
-    width: 1518px;
+.text .secondary{
+    font-size: 65px;
 
 }
 
-#background {
-    position: absolute;
-    width: 1518px;
-    top: 0;
-}
 
+
+/* About section */
 #about {
-    font-family: 'Source Sans Pro', sans-serif;
     position: relative;
-    top: 944px;
-    border: 2px solid blue;
     font-size: 30px;
     text-align: center;
+    
 }
-#heading{
+.heading{
+    text-shadow: 2px 2px 4px grey;
+    font-family: poppins;
     margin: 8px 10px 47px 0px;
      font-size: 65px;
 }
-#about p{
-    font-family: 'Source Sans Pro', sans-serif;
-    word-spacing: 35px;
+.dot{
+    margin-top: 30px;
+    width:50px;
+    border-top: 6px dotted grey;
 }
+#about p{
+    word-spacing: 30px;
+}
+
+
+
+
+/* alumni section */
+.al-head{
+    text-align: center;
+}
+#alumni{
+    height:500px;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.alimg{
+    border-radius: 70px;
+    height:200px ;
+    width:200px ;
+}
+
+.alb{
+    height:200px;
+    width:200px;
+    align-items: center;
+}
+.alumni-2{
+    align-self: end;
+}
+
+
+/* Event section */
+.events .heading{
+    margin-top: 36px;
+}
+.events div{
+    text-align: center;
+}
+.ev-txt{
+    font-size: 35px;
+    word-spacing: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.events a{
+   
+    background-color: #1287A8;
+    text-decoration: none;
+color: white;
+    border-radius: 2px;
+}
+
+/* footer section */
 #footer{
+    margin-top: 10px;
+    background-color:#495057 ;
+    color: white;
+    font-family: poppins;
     display: flex;
-    border:2px solid red;
-    height: 800px;
+    align-items: center;
+    height: 400px;
+    justify-content: space-around;
+}
+.contact{
+    font-family: poppins;
+    height: 225px;
+    width: 210px;
+}
+ .icon{
+    font-size: 40px;
+}
+.ic{
+    align-self: center;
+   
+}
+.address{
+    margin-bottom: 30px;
+}
+.btn{
+    color:white;
+    text-decoration: none;
+    background:linear-gradient(to right,#1488CC,#2B32B2);
+    font-size: 16px;
+    padding: 4px 13px;
+    border-radius: 10px;
+
+
+}
+.btn:hover{
+    background: rgb(78, 73, 73);
+}
+
+.courses{
+    font-family: poppins;
+    height: 200px;
+    width: 300px;
+}
+
+.imperial{
+    height: 200px;
+    width: 305px;
+    overflow-wrap: inherit;
+}
+.imperial p {
+    font-size: 17px;
+    word-spacing: 5px;
+}
+.courses ul {
+   text-align: left;
+}
+.foothead{
+    margin-bottom: 10px;
+}
+.copyright{
+    text-align: center;
 }
