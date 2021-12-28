@@ -26,19 +26,19 @@
 }
 #navbar {
     display: flex;
-    height: 90px;
+    height: 60px;
     background-color: #1287A8;
 }
 
 #logo img {
     margin-left: 4px;
     margin-top: 5px;
-    width: 80px;
+    width: 50px;
     border-radius: 60px;
 }
 
 #navbar ul {
-    margin-top: 27px;
+    margin-top: 18px;
     display: flex;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .search {
-    margin: 29px 59px;
+    margin: 21px 59px;
 }
 
 .search button {
@@ -89,8 +89,25 @@ button:hover {
   
 }
 .text .secondary{
-    font-size: 65px;
-
+    font-size: 50px;
+    position: relative;
+    animation-name: movingtext;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes movingtext {
+    from{
+        left: 0px;
+    }
+    to{
+    transform: scale(0.6);
+        left: 47px;
+    }
+    
 }
 
 
@@ -131,7 +148,6 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 .alimg{
-    border-radius: 70px;
     height:200px ;
     width:200px ;
 }
@@ -140,17 +156,24 @@ justify-content: space-around;
     height:200px;
     width:200px;
     align-items: center;
+    box-shadow: 10px 10px 10px grey;
+    
 }
+.alb :hover{
+    border-radius: 70px;
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+
+}
+
 .alumni-2{
     align-self: end;
 }
 
 
 /* Event section */
-.events .heading{
-    margin-top: 36px;
-}
-.events div{
+
+#events h1{
     text-align: center;
 }
 .ev-txt{
@@ -158,12 +181,17 @@ justify-content: space-around;
     word-spacing: 30px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.events a{
-   
+#events p{
+    margin-bottom: 25px;
+}
+#events a{
+    margin:0px 5px;
     background-color: #1287A8;
     text-decoration: none;
-color: white;
-    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    border-radius: 16px;
+    padding: 3px 30px;
 }
 
 /* footer section */
@@ -185,19 +213,30 @@ color: white;
  .icon{
     font-size: 40px;
 }
+.fab:hover {
+cursor: pointer;
+}
 .ic{
     align-self: center;
-   
 }
+.icon a i{
+    color:white;
+}
+
 .address{
     margin-bottom: 30px;
 }
+.contact h3 i {
+ color: rgb(204, 192, 31);
+    padding-right: 4px;
+}
+
 .btn{
     color:white;
     text-decoration: none;
     background:linear-gradient(to right,#1488CC,#2B32B2);
     font-size: 16px;
-    padding: 4px 13px;
+    padding: 6px 12px;
     border-radius: 10px;
 
 

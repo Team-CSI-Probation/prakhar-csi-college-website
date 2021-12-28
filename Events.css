@@ -1,5 +1,5 @@
+
 .evnts{
-    border:2px red solid;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -7,9 +7,107 @@
 }
 
 .evnts div{
-    margin: 5px 0px;
-    border:2px blue solid;
-    height:400px;
-    width:600px;
+    height:200px;
+  
+}
+.deb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+}
+.debate{
+width: 300px;
+}
+.debcon{
+    width: 694px;
+}
+ p{
+    font-family: poppins;
+    font-size: 20px;
+}
+.debate  img{
+    border-radius: 25px;
+    width: 210px;
+    height: 161px;
+}
+.des{
+    display:flex;
+    justify-content:space-around;
+}
+.descon {
+    width: 423px;
+    
+}
+
+.design  img{
+    border-radius: 25px;
+    width: 210px;
+    height: 161px;
+}
+
+.web {
+    display:flex;
+    justify-content: space-around;
+}
+.webcon{
+    width: 620px;
+}
+.comp{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.code {
+    
+    width: 654px;
+
+}
+
+.coding{
+  
+    width: 210px;
+}
+.coding  img{
+    border-radius: 25px;
+    width: 210px;
+    height: 161px;
+}
+.webinars  img{
+    border-radius: 25px;
+    width: 210px;
+    height: 161px;
+}
+#star{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+  .par{
+    
+    
+    box-shadow: 10px 10px 10px grey;
+    width: 774px;
+    height: 200px;
+}
+.start  img{
+    border-radius: 25px;
+    width: 210px;
+    height: 161px;
+}
+
+.fest{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.festcon{
+    width: 650px;
+}
+.cultural  img{
+    border-radius: 25px;
+    width: 210px;
+    height: 161px;
 }

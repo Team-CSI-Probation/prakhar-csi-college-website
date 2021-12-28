@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald:wght@200&family=Source+Sans+Pro:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="Events.css">
     <link rel="stylesheet" href="style.css">
 
@@ -28,35 +34,123 @@
             <button>search</button>
         </div>
     </nav>
-    <section class="Event">
+    <section>
+
         <div class="heading">Events:</div>
+
+
         <section class="evnts">
-            <div>
-                <h1 class="heading">coding contests</h1>
+            <h1 class="heading">coding contests</h1>
+            <div class="comp">
+                <div class="code par">
+                    <p> programming is a mind sport usually held over the Internet or a local network, involving
+                        participants trying to program according to provided specifications. Contestants are referred to
+                        as sport programmers. Competitive programming is recognized and supported by several
+                        multinational software and Internet companies, such as Google and Facebook.
+                    </p>
+                </div>
+                <div class="coding ">
+                    <img src="img/code.jpg" alt="">
+                </div>
             </div>
-            <div>
-                <h1 class="heading">Debate</h1>
+            <h1 class="heading">Debate</h1>
+            <div class="deb">
+                <div class="debate">
+                    <img src="img/debate.jpg" alt="">
+                </div>
+                <div class="debcon par">
+                    <p>Debate is a process that involves formal discourse on a particular topic, often including a
+                        moderator and audience. In a debate, arguments are put forward for often opposing viewpoints.
+                        Debates have historically occurred in public meetings, academic institutions, debate halls,
+                        coffeehouses, competitions, and legislative assemblies. Debate has also been conducted for
+                        educational and recreational purposes, usually associated with educational establishments and
+                        debating societies
+
+                    </p>
+                </div>
             </div>
-            <h1 class="heading">Painting</h1>
-            <div></div>
+
+            <h1 class="heading">Design Competition</h1>
+            <div class="des">
+                <div class="descon par">
+                    <p>
+                        A Student Design Competition can be technical or purely aesthetic. The objective of technical
+                        competitions is to introduce students to real-world engineering situations and to teach students
+                        project-management and fabrication techniques used in industry. Aesthetic competitions usually
+                        require art and design skills.
+                    </p>
+
+                </div>
+                <div class="design">
+
+                    <img src="img/design.png" alt="">
+                </div>
+            </div>
+
             <h1 class="heading">Webinars</h1>
-            <div></div>
+            <div class="web">
+                <div class="webinars">
+                    <img src="img/web.jpg" alt="">
+                </div>
+                <div class="webcon par">
+                    <p>In a webinar, a presentation, a lecture, training or a similar content will be transmitted over
+                        the Internet using video technology. A web conference software is used for this purpose, which
+                        does not serve to transmit the event to the web, but can also be used for managing and
+                        communicating with the participants. A webinar can theoretically only consist of audio data, but
+                        it is usually a transmission of webcam images, computer desktop content or both.
+
+                    </p>
+                </div>
+            </div>
+
             <h1 class="heading">Start Ups</h1>
-            <div></div>
+            <div class="start" id="star">
+
+                <div class="par">
+                    <p> startup or start-up is a company or project undertaken by an entrepreneur to seek, develop, and
+                        validate a scalable business model. While entrepreneurship refers to all new businesses,
+                        including self-employment and businesses that never intend to become registered, startups refer
+                        to new businesses that intend to grow large beyond the solo founder.At the beginning, startups
+                        face high uncertainty and have high rates of failure, but a minority of them do go on to be
+                        successful and influential.</p>
+                </div>
+
+                <div>
+                    <img src="img/inv.jpg" alt="">
+                </div>
+
+            </div>
+
             <h1 class="heading">Cultural fests</h1>
-            <div></div>
+            <div class="fest">
+                <div class="cultural">
+                    <img src="img/cultural.jpg" alt="">
+                </div>
+                <div class="festcon par">
+                    <p class=".par">In India, a cultural festival, cultfest, culfest or college fest is an annual
+                        cultural event at a college or university organised by the student community, involving
+                        participants from other colleges as well.Professional performing artists are also typically
+                        invited, and a number of competitions are held for students. Fests are usually funded through
+                        sponsors, although some colleges have begun exploring the idea of crowdfunding.
+
+                    </p>
+                </div>
+            </div>
         </section>
+
     </section>
+
+
     <section id="footer">
         <div class="contact">
             <h1 class="foothead">Contact Us</h1>
-            <h3>Address:</h3>
+            <h3><i class="fas fa-map-marker-alt"></i>Address:</h3>
             <p>South Kensington Campus
             <p> London SW7 2AZ, UK</p>
-            <h3>Phone:</h3>
+            <h3><i class="fas fa-phone"></i>Phone:</h3>
             <p>8744052891-93 <br>
                 7290034978</p>
-            <h3>E-mail:</h3>
+            <h3><i class="fas fa-at"></i> E-mail:</h3>
 
             <p class="address">info@ic.ac.in</p>
             <a class="btn" href="contact.html">Contact Us</a>
@@ -84,10 +178,11 @@
         </div>
         <div class="ic">
             <h1 class="foothead">Social Media</h1>
-            <p class="icon"><i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin"></i>
+            <p class="icon">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com"> <i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com"> <i class="fab fa-linkedin"></i></a>
             </p>
         </div>
     </section>
