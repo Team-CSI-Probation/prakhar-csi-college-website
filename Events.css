@@ -20,6 +20,8 @@
 width: 300px;
 }
 .debcon{
+    box-shadow: -10px 10px 10px grey;
+
     width: 694px;
 }
  p{
@@ -36,6 +38,8 @@ width: 300px;
     justify-content:space-around;
 }
 .descon {
+    box-shadow: 10px 10px 10px grey;
+
     width: 423px;
     
 }
@@ -51,6 +55,8 @@ width: 300px;
     justify-content: space-around;
 }
 .webcon{
+    box-shadow: -10px 10px 10px grey;
+
     width: 620px;
 }
 .comp{
@@ -60,6 +66,7 @@ width: 300px;
     justify-content: space-around;
 }
 .code {
+    box-shadow: 10px 10px 10px grey;
     
     width: 654px;
 
@@ -85,9 +92,7 @@ width: 300px;
     align-items: center;
     justify-content: space-around;
 }
-  .par{
-    
-    
+  .starcon{
     box-shadow: 10px 10px 10px grey;
     width: 774px;
     height: 200px;
@@ -104,6 +109,8 @@ width: 300px;
 }
  
 .festcon{
+    box-shadow: -10px 10px 10px grey;
+
     width: 650px;
 }
 .cultural  img{

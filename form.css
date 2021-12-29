@@ -5,10 +5,14 @@
 
 .for{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-image: url(img/contact.jpg);
 }
+.map{border-radius: 2%;
+}
+
+
 .for div{
    text-align: center;
 }
@@ -19,30 +23,18 @@
 .form{
     height: 600px;
     width: 500px;
-    left: 100px;
+    border: 6px solid orange;
+    border-radius: 44px;
 }
-#name{
-    margin-top:20px;
 
-}
-label{
-    color: black;
+.name,.phone,.email{
     font-size: 20px;
+    padding: 10px 10px;
+    border:none;
+    border-bottom: 2px black solid;
 }
-.name{
-    border-radius: 5px;
-    font-size: 20px;
-}
-.phone{
-    border-radius: 5px;
-    font-size: 20px;
-}
-.email input{
-    border-radius: 5px;
-    font-size: 20px;
-}
+
 .text textarea{
-    border-radius: 5px;
     font-size: 20px;
 }
 .sbtn {
@@ -52,6 +44,6 @@ label{
     font-size: 20px;
 }
 .sbtn:hover{
-    background-color: black;
+    background-color: #1287A8;
     color: white;
 }

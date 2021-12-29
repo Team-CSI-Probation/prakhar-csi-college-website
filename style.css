@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+::selection{
+    color:white;
+    background: #495057;
+}
+
 /* navigation section */
 .first{
     position: fixed;
@@ -26,6 +31,8 @@
 }
 #navbar {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     height: 60px;
     background-color: #1287A8;
 }
@@ -38,7 +45,7 @@
 }
 
 #navbar ul {
-    margin-top: 18px;
+    margin-top: 9px;
     display: flex;
 }
 
@@ -49,18 +56,25 @@
 
 #navbar ul li a {
     font-size: 20px;
-
+   display: inline-flex;
     color: white;
     text-decoration: none;
     padding: 8px 64px;
 }
 
 #navbar ul li a:hover {
-    color: grey;
+    background-color:#555 ;
+    color: white;
 }
 
+
+
 .search {
-    margin: 21px 59px;
+    display: flex;
+    margin: 20px 0px;
+}
+.search input,button{
+    align-self: flex-end;
 }
 
 .search button {
@@ -109,8 +123,24 @@ button:hover {
     }
     
 }
+/* courses dropdown */
+.dropdown{
+    position: relative;
+    display:inline-block;
+}
 
-
+.content{
+    background-color:#555 ;
+    color: white;
+    display: none;
+    min-width: 201px;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.dropdown:hover .content{
+display: block;
+}
 
 /* About section */
 #about {
@@ -153,9 +183,9 @@ justify-content: space-around;
 }
 
 .alb{
+    display: flex;
     height:200px;
     width:200px;
-    align-items: center;
     box-shadow: 10px 10px 10px grey;
     
 }
@@ -211,8 +241,10 @@ justify-content: space-around;
     width: 210px;
 }
  .icon{
+      width: auto;
     font-size: 40px;
 }
+
 .fab:hover {
 cursor: pointer;
 }
@@ -220,6 +252,7 @@ cursor: pointer;
     align-self: center;
 }
 .icon a i{
+   
     color:white;
 }
 
@@ -268,4 +301,42 @@ cursor: pointer;
 }
 .copyright{
     text-align: center;
+}
+
+/* slideshow */
+.slideshow{
+    height: 550px;
+    width: 1527px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #495057;
+}
+.slide{
+    height: 484px;
+    width: 1280px;
+    background-image: url(img/bac.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: slider 30s  infinite linear;
+}
+@keyframes slider {
+    0%{
+    background-image: url(img/bac.jpg) ;
+
+    }
+    20%{
+    background-image: url(img/classroom.jpg) ;
+
+    }
+    40%{
+    background-image: url(img/cd.jpeg) ;
+
+    }
+    
+    60%{
+    background-image: url(img/sport.jpg) ;
+
+    }
 }
