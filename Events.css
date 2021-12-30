@@ -118,3 +118,39 @@ width: 300px;
     width: 210px;
     height: 161px;
 }
+.event-slide{
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #495057;
+}
+.eventslide{
+    height: 484px;
+    width: 1280px;
+    background-image: url(img/inv.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: eventslides 14s  infinite ease;
+}
+@keyframes eventslides {
+    0%{
+    background-image: url(img/debate.jpg) ;
+
+    }
+    20%{
+    background-image: url(img/web.jpg) ;
+
+    }
+    40%{
+    background-image: url(img/inv.jpg) ;
+
+    }
+    
+    60%{
+    background-image: url(img/cultural.jpg) ;
+
+    }
+}

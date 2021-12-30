@@ -35,6 +35,9 @@
 }
 
 .text textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
     font-size: 20px;
 }
 .sbtn {
