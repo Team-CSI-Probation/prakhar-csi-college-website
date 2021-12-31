@@ -20,13 +20,18 @@
 width: 300px;
 }
 .debcon{
-    box-shadow: -10px 10px 10px grey;
+    box-shadow: -4px 4px 10px grey;
+    border-right:2px gray solid;
 
     width: 694px;
 }
  p{
+     padding: 0px 10px;
     font-family: poppins;
     font-size: 20px;
+}
+.evnts p{
+    border-top:2px solid gray ;
 }
 .debate  img{
     border-radius: 25px;
@@ -38,8 +43,8 @@ width: 300px;
     justify-content:space-around;
 }
 .descon {
-    box-shadow: 10px 10px 10px grey;
-
+    box-shadow: 4px 4px 10px grey;
+    border-left:2px gray solid;
     width: 423px;
     
 }
@@ -55,7 +60,8 @@ width: 300px;
     justify-content: space-around;
 }
 .webcon{
-    box-shadow: -10px 10px 10px grey;
+    box-shadow: -4px 4px 4px grey;
+    border-right:2px gray solid;
 
     width: 620px;
 }
@@ -66,8 +72,8 @@ width: 300px;
     justify-content: space-around;
 }
 .code {
-    box-shadow: 10px 10px 10px grey;
-    
+    box-shadow: 4px 4px 10px grey;
+    border-left:2px gray solid;
     width: 654px;
 
 }
@@ -93,7 +99,9 @@ width: 300px;
     justify-content: space-around;
 }
   .starcon{
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 4px 4px 10px grey;
+    border-left:2px gray solid;
+
     width: 774px;
     height: 200px;
 }
@@ -109,7 +117,8 @@ width: 300px;
 }
  
 .festcon{
-    box-shadow: -10px 10px 10px grey;
+    box-shadow: -4px 4px 10px grey;
+    border-right:2px gray solid;
 
     width: 650px;
 }
@@ -119,6 +128,7 @@ width: 300px;
     height: 161px;
 }
 .event-slide{
+    margin-top: 20px;
     height: auto;
     width: auto;
     flex-wrap: wrap;
